@@ -7,14 +7,18 @@ pipeline {
             steps {
             echo 'Build'
             }
+        }
         stage ('test') {
             steps {
             echo 'test'
             }
+        }
         stage ('Int Test') {
             steps {
             echo 'Int Test'
             }
+        }
 
     }
+        
 }
